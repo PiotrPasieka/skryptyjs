@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proste skrypty JS</title>
+    <script>
+        function f1() {
+            document.getElementById("odp1").innerHTML = "dziękuje za pamięć";
+        }
+        function f2() {
+            document.getElementById("odp1").innerHTML = "";
+        }
+
+        function f3() {
+            document.getElementById("odp2").innerHTML = "Na JAVIE";
+        }
+        function f4() {
+            document.getElementById("odp2").innerHTML = " ";
+
+        }
+        function f5() {
+            document.getElementById("odp3").innerHTML = " bo współpracują z kablami";
+        }
+        function f6() {
+            document.getElementById("odp3").innerHTML = " ";
+        }
+        function f7() {
+            document.getElementById("odp4").innerHTML = " inaczej się zawiesza";
+        }
+        function f8() {
+            document.getElementById("odp4").innerHTML = " ";
+        }
+        function f9() {
+            document.getElementById("odp5").innerHTML = " - chce oglądać Twoje logi - logi, logi, logi...";
+        }
+        function f10() {
+            document.getElementById("odp5").innerHTML = " ";
+        }
+    </script>
+    <style>
+        body {
+            background-color: rgb(238, 205, 97);
+            color: rgb(66, 194, 41);
+            text-align: center;
+            font-family: Verdana;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <h1> Użycie innerHTML</h1>
+    <h2> <u>Skrypt 5 </u></h2>
+    <i> Co mówi infomatyk , kiedy dostanie na urodziny pendrive?</i>
+    <div id="odp1" Tu ukaże się odpowiedź></div>
+    <button onclick="f1()">Pokaż odpowiedź</button>
+    <button onclick="f2()">Ukryj odpowiedź</button>
+    <h3> <u>Skrypt 2 </u></h3>
+    <i> Jak śni programista?</i>
+    <div id="odp2" Tu ukaże się odpowiedź></div>
+    <button onclick="f3()"">Pokaż odpowiedź</button>
+    <button onclick=" f4()">Ukryj odpowiedź</button>
+
+    <h3><u>Skrypt 3 </u></h3>
+    <i>Dlaczego komputery można łatwo zhakować?</i>
+    <div id="odp3" Tu ukaże się odpowiedź></div>
+    <button onclick="f5()"">Pokaż odpowiedź</button>
+    <button onclick=" f6()">Ukryj odpowiedź</button>
+
+    <h3> <u>Skrypt 4 </u></h3>
+    <i>Jaka jest różnica między komuterem a praniem?</i>
+    <div id="odp4" Tu ukaże się odpowiedź></div>
+    <button onclick="f7()"">Pokaż odpowiedź</button>
+    <button onclick=" f8()">Ukryj odpowiedź</button>
+
+    <h3> <u>Skrypt 5 </u> </h3>
+    <i> Jaka jest ulubiona piosenka adminów?</i>
+    <div id="odp5" Tu ukaże się odpowiedź></div>
+    <button onclick="f9()"">Pokaż odpowiedź</button>
+    <button onclick=" f10()">Ukryj odpowiedź</button>
+</body>
+
+</html>
